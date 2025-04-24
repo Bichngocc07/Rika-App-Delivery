@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danh sách tài khoản</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/ThongTinCaNhan/ThongTinCaNhan.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="/icon/Logo (1).png" alt="Phenikaa University">
+      </div>
+      <input type="text" class="search" placeholder="Tìm kiếm" />
+      <nav class="menu">
+        <a class="active" href="#"><img src="/icon/Icon.png" alt="">Tài khoản</a>
+        <a href="#"><img src="/icon/home.png" alt="">Đối tác</a>
+        <a href="#"><img src="/icon/Video.png" alt="">Khóa học (E-learning)</a>
+        <a href="#"><img src="/icon/Vector.png" alt="">Lớp học offline</a>
+        <a href="#"><img src="/icon/ChartPie.png" alt="">Kỳ thi</a>
+        <a href="#"><img src="/icon/Certificate.png" alt="">Chứng chỉ</a>
+        <a href="#"><img src="/icon/Vector (2).png" alt="">Báo cáo tài chính</a>
+        <a href="#"><img src="/icon/Buildings.png" alt="">Cơ sở hạ tầng</a>
+        <a href="#"> <img src="/icon/Vector (3).png" alt="">Tin tức, thông báo</a>
+        <a href="#"><img src="/icon/Vector (2).png" alt="">Cấu hình</a>
+      </nav>
+      <div class="profile">
+        <div>
+          <a><img src="/icon/Avatar.png" alt="">Trần Hữu Nam <img src="" alt=""></a>
+          <p>namtran94@phenikaa.com</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <nav class="breadcrumbs">
+          <span>Tài khoản</span> › <span class="active">Danh sách tài khoản</span> > <b>Thông tin cá nhân</b>
+        </nav>
+        <div class="header-actions">
+          <a href="CapNhatTkhoan.html"><button class="btn add">+ Cập nhật thông tin</button></a>
+        </div>
+      </header>
+
+      <div class="profile-info">
+        <img src="/icon/Avatar.png" alt="Avatar">
+        <h2>Nguyễn Văn Nam <span class="badge">Trợ giảng</span></h2>
+      </div>
+
+      <div class="filter-tags">
+        <span class="tag chosenTag">Thông tin cá nhân</span>
+        <span class="tag">Khóa học (E-Learning) <b>2</b></span>
+        <span class="tag">Lớp học offline <b>2</b></span>
+        <span class="tag">Kỳ thi <b>2</b></span>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <p>Đối tác</p>
+          <h3>25</h3>
+        </div>
+        <div class="stat">
+          <p>Khóa học</p>
+          <h3>32</h3>
+        </div>
+        <div class="stat">
+          <p>Nền kinh nghiệm</p>
+          <h3>3</h3>
+        </div>
+      </div>
+
+
+
+      <div class="info">
+        <h3>Thông tin cá nhân</h3>
+          <div class="info-grid">
+            <div class="grid">
+              <span class="title">Mã tài khoản</span><br><br>
+              <span>TK002341</span><br><br>
+              <span class="title">Số điện thoại</span><br><br>
+              <span>0369852147</span><br><br>
+              <span class="title">Mã sinh viên</span><br><br>
+              <span>D12DCCN114</span><br>
+            </div>
+            <div class="grid">
+              <span class="title">Ngày sinh </span><br><br>
+              <span>30/08/2001</span><br><br>
+              <span class="title">Email</span><br><br>
+              <span>rikkeiacademy@gmail.com</span><br><br>
+              <span class="title">Khóa học</span><br><br>
+              <span>2020-2025</span>
+            </div>
+            <div class="grid">
+              <span class="title">Quê quán</span><br><br>
+              <span>Hà Nam</span><br><br>
+              <span class="title">Trường</span><br><br>
+              <span>Học viện công nghệ BCVT (PTIT)</span><br><br>
+              <span class="title">Chuyên nghành</span><br><br>
+              <span>Công nghệ thông tin</span>
+            </div>
+        </div>
+      </div>
+      <div class="course-container">
+        <div class="header">
+            <h2>Khóa học <span class="badge">18</span></h2>
+            <div class="header-actions">
+                <button class="btn btn-outline"> +Tải danh sách excel</button>
+                <button class="btn btn-primary">+Thêm khóa học</button>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox"></th>
+                    <th>Mã khóa học</th>
+                    <th>Tên khóa học</th>
+                    <th>Tên đối tác</th>
+                    <th>Loại khóa học</th>
+                    <th>Số học viên</th>
+                    <th>Thời lượng</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>TK002341</td>
+                    <td>Nhập môn lập trình C++</td>
+                    <td>FPT Software</td>
+                    <td><span class="badge offline">Offline</span></td>
+                    <td>30</td>
+                    <td>72h</td>
+                    <td class="actions">
+                        <button class="btn-icon">&#9998;</button>
+                        <button class="btn-icon">&#128465;</button>
+                    </td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td>TK002341</td>
+                  <td>Nhập môn lập trình Python</td>
+                  <td>Rikkei Academy</td>
+                  <td><span class="badge offline">Offline</span></td>
+                  <td>30</td>
+                  <td>72h</td>
+                  <td class="actions">
+                      <button class="btn-icon">&#9998;</button>
+                      <button class="btn-icon">&#128465;</button>
+                  </td>
+              </tr>
+                <!-- Lặp lại các dòng dữ liệu tương tự -->
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            <button class="btn btn-outline">Trang trước</button>
+            <span>Trang 1 trong 2</span>
+            <button class="btn btn-outline">Trang sau</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./CapNhatTkhoanSinhVien.js"></script>
+  
+</body>
+</html>
